@@ -1,0 +1,72 @@
+{
+  "name": "gulp-starter-kit",
+  "version": "1.0.0",
+  "description": "Basic set-up for using Gulp to compile Sass and JavaScript source code. Includes dependencies for React and including HTML partials.",
+  "private": true,
+  "author": "Jef Mayer",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jefmayer/gulp-starter-kit"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.27.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "jsdom": "^11.12.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss": "^7.0.2",
+    "postcss-reporter": "^7.0.5",
+    "postcss-scss": "^1.0.6",
+    "replace-in-file": "^3.4.4",
+    "stylelint": "^9.5.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.0",
+    "webpack": "^4.17.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "feature-detect-es6": "^1.5.0",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "underscore": "^1.13.1"
+  },
+  "browserslist": [
+    "last 2 Edge versions",
+    "last 2 Firefox versions",
+    "last 2 Chrome versions",
+    "last 2 ChromeAndroid versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 Opera versions"
+  ]
+}
