@@ -24,7 +24,7 @@ module.exports = {
     },
     html: {
       dest: './build',
-      watch: './Views/**/*.html',
+      watch: './pages/**/*.html',
     },
     server: {
       watch: [
